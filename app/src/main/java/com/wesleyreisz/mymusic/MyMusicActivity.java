@@ -1,11 +1,13 @@
 package com.wesleyreisz.mymusic;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
 
 import com.wesleyreisz.mymusic.model.Song;
 import com.wesleyreisz.mymusic.service.MockMusicService;
@@ -74,4 +76,10 @@ public class MyMusicActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
+
+
+
+
+
